@@ -15,7 +15,7 @@ const Skills = () => {
             className='skills'  
          
         >
-            <motion.div className="cont" ref={ref} style={{opacity:scrollYProgress,scale:scrollYProgress,scrollBehavior:'smooth',transition:{staggerChildren:1,stiffness:20,duration:1}}}>
+            <motion.div className="cont" ref={ref} style={{opacity:scrollYProgress,scrollBehavior:'smooth',transition:{staggerChildren:1,stiffness:20,duration:1}}}>
             <div className="text">
                 <p>I am a versatile web developer proficient in HTML, CSS, and JavaScript, creating interactive and responsive web interfaces. With expertise in React.js, I specialize in building scalable and modular web applications, ensuring an efficient and user-friendly experience. My design skills extend to Bootstrap and Tailwind CSS, allowing me to create visually appealing and responsive layouts that adapt seamlessly to various devices.
 
