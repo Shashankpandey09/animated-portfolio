@@ -10,7 +10,7 @@ const items=[
         title:'Netflix-Gpt',
         img:"https://www.missioncriticalmagazine.com/ext/resources/2023/10/CHatgpt.jpg?1697059739",
         desc:`I developed a Netflix UI clone featuring a sleek, responsive design built with React.js and styled using Tailwind CSS. The project includes secure backend authentication using Firebase, enabling user registration, login, and logout functionalities. Additionally, I integrated OpenAI's GPT-3 for an advanced search feature that provides intelligent content recommendations based on user queries. Key technologies used are React.js for the frontend, Firebase for authentication, and the GPT-3 API for the search functionality. This project showcases my ability to create dynamic user interfaces, implement secure authentication, and enhance user experience with AI-powered features.`,
-        link:" https://shopping-app-rosy-gamma.vercel.app/",
+        link:"https://netflix-gpt-ashy-three.vercel.app/",
         gitLink:" https://github.com/Shashankpandey09/Netflix-GPT"
     },
     {
@@ -18,7 +18,7 @@ const items=[
         title:'E-commerce Website',
         img:"https://www.hostgator.com/blog/wp-content/uploads/2020/08/Types-of-eCommerce-Websites-1024x538.jpg",
         desc:"I developed an e-commerce website using React and Redux for state management, creating a dynamic and responsive user interface. The project features secure backend authentication using Firebase, allowing users to register, log in, and log out seamlessly. Key technologies include React.js for the frontend, Redux for efficient state management, and Firebase for authentication. This project demonstrates my proficiency in building scalable web applications, implementing robust user authentication, and managing complex state with Redux.",
-        link:"https://shashankpandey09.github.io/unityLab/",
+        link:"https://shopping-app-rosy-gamma.vercel.app/",
         gitLink:"https://github.com/Shashankpandey09/shopping-app "
     },
     {
