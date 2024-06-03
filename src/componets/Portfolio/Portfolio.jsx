@@ -10,7 +10,7 @@ const items=[
         title:'Netflix-Gpt',
         img:"https://www.missioncriticalmagazine.com/ext/resources/2023/10/CHatgpt.jpg?1697059739",
         desc:`I developed a Netflix UI clone featuring a sleek, responsive design built with React.js and styled using Tailwind CSS. The project includes secure backend authentication using Firebase, enabling user registration, login, and logout functionalities. Additionally, I integrated OpenAI's GPT-3 for an advanced search feature that provides intelligent content recommendations based on user queries. Key technologies used are React.js for the frontend, Firebase for authentication, and the GPT-3 API for the search functionality. This project showcases my ability to create dynamic user interfaces, implement secure authentication, and enhance user experience with AI-powered features.`,
-        link:" https://netflix-gpt-ashy-three.vercel.app/"
+        link:" https://shopping-app-rosy-gamma.vercel.app/"
     },
     {
         id:2,
@@ -31,22 +31,28 @@ const items=[
 const SingleItem=({item})=>{
     const ref=useRef()
    return(
-    <section >
-      <div className="container">
-        <div className="wrapper">
-            <div className="imageContainer">
-             <img src={item.img} alt={item.title} />
-            </div>
-     
+    <section className="item-section">
+    <div className="container">
+      <div className="wrapper">
+        <div className="imageContainer">
+          <img src={item.img} alt={item.title} />
+        </div>
         <div className="textContainer">
-            <h2>{item.title}</h2>
-            <p>{item.desc}</p>
-            <a href={item.link} target='_blank'><button>See Demo</button></a>  
+          <h2>{item.title}</h2>
+          <p>{item.desc}</p>
+          <div className="buttonsContainer">
+            <a href={item.link} target="_blank" rel="noopener noreferrer" className="demoButton">
+              <button>See Demo</button>
+            </a>
+            <a href={item.gitLink} target="_blank" rel="noopener noreferrer" className="githubButton">
+              <button>GitHub</button>
+            </a>
+          </div>
         </div>
-        </div>
-   
       </div>
-    </section>
+    </div>
+  </section>
+  
    )
 }
 const Portfolio = () => {
