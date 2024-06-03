@@ -31,7 +31,7 @@ const items=[
 const SingleItem=({item})=>{
     const ref=useRef()
    return(
-    <section  className='port'>
+    <section >
       <div className="container">
         <div className="wrapper">
             <div className="imageContainer">
