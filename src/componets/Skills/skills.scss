@@ -2,76 +2,131 @@
 
 .skills {
     font-family: 'Nunito Sans', sans-serif;
-  color:white;
-  padding: 80px 0;  // Increased padding for better spacing
+    color: white;
+    padding: 80px 0;  // Increased padding for better spacing
 
-  .section-heading {
-      font-family: 'Inter', sans-serif;
-      font-weight: 600;
-      
-      text-align: center;
-      font-size: 4.5rem;  // Increased font size for better prominence
-      text-transform: uppercase;
-      letter-spacing: 3px;  // Increased letter-spacing for a more modern look
-      margin-bottom: 50px;  // Increased margin for better spacing
-      transition: all 0.3s ease;
+    .section-heading {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        font-size: 4.5rem;  // Increased font size for better prominence
+        text-transform: uppercase;
+        letter-spacing: 3px;  // Increased letter-spacing for a more modern look
+        margin-bottom: 50px;  // Increased margin for better spacing
+        transition: all 0.3s ease;
 
-      &:hover {
-          color: #007bff;  // Added color change on hover
-          letter-spacing: 4px;  // Subtle increase on hover
-      }
-  }
+        &:hover {
+            color: #007bff;  // Added color change on hover
+            letter-spacing: 4px;  // Subtle increase on hover
+        }
+    }
 
-  .skills-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;  // Increased gap between sections
-      flex-wrap: wrap;
-      padding: 0 20px;
-  }
+    .skills-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;  // Increased gap between sections
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
 
-  .cont {
-      max-width: 1000px;  // Increased max-width for better readability
-      margin: 0 auto;
-      text-align: center;
-  }
+    .cont {
+        max-width: 1000px;  // Increased max-width for better readability
+        margin: 0 auto;
+        text-align: center;
+    }
 
-  .text p {
-      font-family: 'Inter', sans-serif;
-      font-size: 1.2rem;  // Slightly larger font size for better readability
-      line-height: 1.8;  // Increased line height for better text spacing
-     
-      margin-bottom: 25px;  // Added more spacing between paragraphs
-      opacity: 0.85;
-      transition: all 0.3s ease;
+    .text p {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.2rem;  // Slightly larger font size for better readability
+        line-height: 1.8;  // Increased line height for better text spacing
+        margin-bottom: 25px;  // Added more spacing between paragraphs
+        opacity: 0.85;
+        transition: all 0.3s ease;
 
-      &:hover {
-          color: white;  // Added color change on hover
-          transform: translateY(-3px);  // Slight upward movement on hover
-          opacity: 0.5;
-      }
-  }
+        &:hover {
+            color: white;  // Added color change on hover
+            transform: translateY(-3px);  // Slight upward movement on hover
+            opacity: 0.5;
+        }
+    }
 
-  .image {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;  // Increased gap between images
-      flex-wrap: wrap;
-      margin-top: 50px;  // Increased margin for better spacing
+    .image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;  // Increased gap between images
+        flex-wrap: wrap;
+        margin-top: 50px;  // Increased margin for better spacing
 
-      img {
-          width: 80px;  // Slightly larger icons for better visibility
-          height: 80px;
-          object-fit: contain;
-       
-          transition: filter 0.3s ease, transform 0.3s ease;  // Added smooth transform transition
+        img {
+            width: 80px;  // Slightly larger icons for better visibility
+            height: 80px;
+            object-fit: contain;
+            transition: filter 0.3s ease, transform 0.3s ease;  // Added smooth transform transition
 
-          &:hover {
-              filter: grayscale(0);
-              transform: scale(1.1);  // Slight scale effect on hover
-          }
-      }
-  }
+            &:hover {
+                filter: grayscale(0);
+                transform: scale(1.1);  // Slight scale effect on hover
+            }
+        }
+    }
+
+    // Mobile Responsiveness
+    @media (max-width: 768px) {
+        padding: 60px 20px;  // Reduce padding on smaller screens
+
+        .section-heading {
+            font-size: 3.2rem;  // Reduce font size for smaller screens
+            letter-spacing: 2px;  // Decrease letter-spacing
+            margin-bottom: 30px;  // Adjust margin for mobile
+        }
+
+        .skills-container {
+            gap: 20px;  // Reduce the gap between elements
+        }
+
+        .text p {
+            font-size: 1rem;  // Adjust font size for mobile
+            margin-bottom: 20px;  // Adjust margin between paragraphs
+        }
+
+        .image {
+            gap: 20px;  // Reduce gap between images
+            margin-top: 30px;  // Adjust margin for mobile screens
+
+            img {
+                width: 60px;  // Reduce icon size for mobile
+                height: 60px;
+            }
+        }
+    }
+
+    // Smaller Mobile Screens (e.g., phones in portrait)
+    @media (max-width: 480px) {
+        .section-heading {
+            font-size: 2.5rem;  // Further reduce font size
+            letter-spacing: 1px;  // Decrease letter-spacing even more
+        }
+
+        .skills-container {
+            flex-direction: column;  // Stack the content vertically
+            gap: 15px;  // Reduce gap between elements
+        }
+
+        .text p {
+            font-size: 0.9rem;  // Further adjust text size
+            margin-bottom: 15px;  // Adjust margin between paragraphs
+        }
+
+        .image {
+            gap: 15px;  // Adjust image spacing
+            margin-top: 20px;  // Reduce margin for mobile
+
+            img {
+                width: 50px;  // Further reduce icon size
+                height: 50px;
+            }
+        }
+    }
 }
