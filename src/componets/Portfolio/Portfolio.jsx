@@ -6,14 +6,6 @@ import { useRef } from 'react';
 
 const items=[
     {
-        id:1,
-        title:'Netflix-Gpt',
-        img:"https://www.missioncriticalmagazine.com/ext/resources/2023/10/CHatgpt.jpg?1697059739",
-        desc:`I developed a Netflix UI clone featuring a sleek, responsive design built with React.js and styled using Tailwind CSS. The project includes secure backend authentication using Firebase, enabling user registration, login, and logout functionalities. Additionally, I integrated OpenAI's GPT-3 for an advanced search feature that provides intelligent content recommendations based on user queries. Key technologies used are React.js for the frontend, Firebase for authentication, and the GPT-3 API for the search functionality. This project showcases my ability to create dynamic user interfaces, implement secure authentication, and enhance user experience with AI-powered features.`,
-        link:"https://netflix-gpt-ashy-three.vercel.app/",
-        gitLink:" https://github.com/Shashankpandey09/Netflix-GPT"
-    },
-    {
         id:2,
         title:'E-commerce Website',
         img:"https://www.hostgator.com/blog/wp-content/uploads/2020/08/Types-of-eCommerce-Websites-1024x538.jpg",
